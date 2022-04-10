@@ -23,6 +23,6 @@ module.exports = ({ context, onGetWebpackConfig }) => {
       }
     });
 
-    config.plugin('RaxTailwindcssWebpackPluginV5').use(RaxTailwindcssWebpackPluginV5);
+    // config.plugin('RaxTailwindcssWebpackPluginV5').use(RaxTailwindcssWebpackPluginV5);
   });
 };
